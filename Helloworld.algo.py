@@ -8,6 +8,8 @@ def fonction_principale():
     fenetre = tk.Tk()
     fenetre.title(HELLO_WORLD_TITLE)
     fenetre.geometry("400x400")
+    fenetre.configure(bg="yellow")  # Fond d’écran jaune
+
     
     # Création du label de texte
     label = tk.Label(fenetre, text=HELLO_WORLD_TITLE, fg="yellow", bg="black")
