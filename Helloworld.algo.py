@@ -10,7 +10,7 @@ def fonction_principale():
     fenetre.geometry("200x200")
     
     # Création du label de texte
-    label = tk.Label(fenetre, text=HELLO_WORLD_TEXT, fg="yellow", bg="black")
+    label = tk.Label(fenetre, text=HELLO_WORLD_TITLE, fg="yellow", bg="black")
     label.pack(expand=True)  # Centrage vertical et horizontal
     
     # Finalisation
