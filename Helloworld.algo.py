@@ -7,7 +7,7 @@ def fonction_principale():
     # Création de la fenêtre
     fenetre = tk.Tk()
     fenetre.title(HELLO_WORLD_TITLE)
-    fenetre.geometry("200x200")
+    fenetre.geometry("400x400")
     
     # Création du label de texte
     label = tk.Label(fenetre, text=HELLO_WORLD_TITLE, fg="yellow", bg="black")
