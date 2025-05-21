@@ -1,0 +1,18 @@
+Hook Git : pre-commit
+======================
+
+Ce hook permet d’ajouter automatiquement une ligne dans suivi/commitInfo.txt à chaque commit
+si l'utilisateur confirme par 'y'.
+
+Installation :
+--------------
+
+1. Copier le fichier `pre-commit` dans le dossier `.git/hooks/` à la racine de votre dépôt :
+
+    cp hooks/pre-commit .git/hooks/pre-commit
+
+2. Rendre le fichier exécutable :
+
+    chmod +x .git/hooks/pre-commit
+
+Le hook sera alors actif lors de chaque `git commit`.
