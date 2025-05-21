@@ -8,7 +8,7 @@ def fonction_principale():
     fenetre = tk.Tk()
     fenetre.title(HELLO_WORLD_TITLE)
     fenetre.geometry("400x400")
-    fenetre.configure(bg="green")  # Fond d’écran vert
+    fenetre.configure(bg="cyan")  # Fond d’écran vert
 
     
     # Création du label de texte
