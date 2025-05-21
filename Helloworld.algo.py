@@ -12,7 +12,7 @@ def fonction_principale():
 
     
     # Création du label de texte
-    label = tk.Label(fenetre, text=HELLO_WORLD_TITLE, fg="yellow", bg="black")
+    label = tk.Label(fenetre, text=HELLO_WORLD_TITLE, fg="green", bg="black")
     label.pack(expand=True)  # Centrage vertical et horizontal
     
     # Finalisation
